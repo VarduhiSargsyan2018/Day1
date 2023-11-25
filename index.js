@@ -34,4 +34,14 @@ console.log(task2('https://github.com/validatorjs/validator.js'));
 console.log(task3("4539415755003656"))
 console.log(task4([5, 10, 67, -1, 34]))
 task5("Varduhi", "Gyumri")
+console.log(task4V2([5, 10, 67, -1, 34]))
 
+function task4V2(pArry){
+   let max = pArry[0]
+   for (let i = 0; i < pArry.length; i++) {
+       if (pArry[i] > max) {
+          max = pArry[i]
+    }
+   }
+   return max
+}
